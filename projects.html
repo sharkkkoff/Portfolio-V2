@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projets personnels et réalisations techniques d’Elyes Ben Miled." />
+  <meta name="theme-color" content="#090d12" />
+  <title>Projets — Elyes Ben Miled</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="Elyes — Accueil"><img src="shark neon.jpg" alt="" class="brand-mark" /><span>Elyes<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="projects.html" class="active" aria-current="page">Projets</a>
+      <a href="software.html">Shark Hub</a>
+      <a href="skills.html">Compétences</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero container">
+      <p class="eyebrow">CE QUE JE CONSTRUIS</p>
+      <h1>Mes projets<span class="accent">.</span></h1>
+      <p>Des projets personnels et des réalisations techniques autour du développement, des systèmes et du matériel informatique.</p>
+    </section>
+
+    <section class="projects-layout container">
+      <article class="project-card project-card-featured">
+        <div class="project-card-top">
+          <span class="project-type">01 / APPLICATION DESKTOP</span>
+          <img src="shark neon.jpg" alt="Logo Shark Gaming Hub" class="project-logo" />
+        </div>
+        <h2>Shark Gaming Hub</h2>
+        <p>Un launcher desktop personnel qui rassemble plusieurs fonctions de gestion et de lancement de contenus dans une seule interface.</p>
+        <div class="tag-list"><span>Electron</span><span>JavaScript</span><span>HTML / CSS</span><span>Node.js</span></div>
+        <a class="text-link" href="software.html">Voir le détail du projet <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="project-card">
+        <span class="project-type">02 / WEB & API</span>
+        <div class="card-symbol large-symbol" aria-hidden="true">{ }</div>
+        <h2>Application web & API</h2>
+        <p>Un projet associant une interface web à un backend en C++, avec une API JSON et un système de distribution directe de fichiers.</p>
+        <div class="tag-list"><span>C++</span><span>JSON API</span><span>Cloudflare R2</span><span>Workers</span></div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-type">03 / ROBOTIQUE</span>
+        <div class="card-symbol large-symbol" aria-hidden="true">⌁</div>
+        <h2>Robot autonome — RoboCup Junior</h2>
+        <p>Participation à un projet de robot capable de suivre une ligne, détecter des obstacles et réagir à son environnement.</p>
+        <div class="tag-list"><span>Arduino</span><span>C / C++</span><span>Capteurs</span></div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-type">04 / HARDWARE</span>
+        <div class="card-symbol large-symbol" aria-hidden="true">▧</div>
+        <h2>Montage & maintenance PC</h2>
+        <p>Montage de configurations, diagnostic de problèmes matériels et logiciels, réglages BIOS et optimisation du refroidissement.</p>
+        <div class="tag-list"><span>Hardware</span><span>BIOS</span><span>Drivers</span></div>
+      </article>
+
+      <article class="project-card project-card-wide">
+        <span class="project-type">05 / EXPÉRIENCE</span>
+        <div class="wide-card-content">
+          <div>
+            <h2>Olympiades des métiers</h2>
+            <p>Une expérience de compétition technique qui m’a permis de travailler la rigueur, la précision et la gestion du temps.</p>
+          </div>
+          <span class="experience-mark" aria-hidden="true">05</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <span>© 2026 Elyes Ben Miled</span><span>Projets personnels & réalisations</span><a href="contact.html">Prendre contact ↗</a>
+  </footer>
+</body>
+</html>
